@@ -1,0 +1,39 @@
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2014-04-02 09:44:24
+project --topLevelPackage com.foo --projectName spring-roo-test --java 7 --packaging JAR
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log closed at 2014-04-02 09:44:38
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2014-04-02 09:53:12
+jpa setup --provider HIBERNATE --database HYPERSONIC_IN_MEMORY
+entity jpa --class ~.Timer --testAutomatically
+field string --fieldName message --notNull
+web mvc setup
+// [failed] selenium test --controller ~.web.TimerController
+// [failed] perform tests
+// [failed] perform package
+// [failed] perform eclipse
+// [failed] perform tests
+// [failed] perform test
+// [failed] perform tests
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log closed at 2014-04-02 10:55:51
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2014-04-02 10:56:29
+// [failed] perform tests
+// [failed] perform tests
+quit
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log closed at 2014-04-02 10:57:33
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2014-04-02 10:57:44
+// [failed] perform tests
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log closed at 2014-04-02 10:58:34
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2014-04-02 11:03:43
+// [failed] perform tests
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log closed at 2014-04-02 11:04:15
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2014-04-02 11:09:52
+perform package
+perform tests
+// [failed] selenium test --controller ~.web.TimerController
+perform tests
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2014-04-02 11:16:56
+// [failed] selenium test --controller ~.web.TimerController
+perform tests
+perform package
+perform eclipse
+quit
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log closed at 2014-04-02 11:18:37
